@@ -1,0 +1,40 @@
+.bestOf{
+    margin-top: 100px;
+}
+.bestOf img{
+        mmargin:50px 10px;
+    }
+.bestOf .bande {
+    margin:0;padding:0;display:block;animation: logo 10s infinite linear;display: flex;overflow: hidden;}
+.bestOf .bande a {display:block;}
+@keyframes logo {
+    0%, 100% {margin:0;}
+    99.99% {margin-left:-500px;}/* 10images */
+}
+figure{
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+figcaption{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: red;
+
+} 
+.descHaut{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.descBas{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
