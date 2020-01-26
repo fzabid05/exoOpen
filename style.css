@@ -1,9 +1,9 @@
+body{
+    background-color: rgb(184, 183, 183);
+}
 .bestOf{
     margin-top: 100px;
 }
-.bestOf img{
-        mmargin:50px 10px;
-    }
 .bestOf .bande {
     margin:0;padding:0;display:block;animation: logo 10s infinite linear;display: flex;overflow: hidden;}
 .bestOf .bande a {display:block;}
@@ -25,7 +25,7 @@ figcaption{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    color: red;
+    color: rgb(16, 204, 218);
 
 } 
 .descHaut{
